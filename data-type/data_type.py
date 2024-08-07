@@ -49,3 +49,17 @@ print('hello' + ' Allan')
 ### Type Conversion
 print(type(str(100))) # -> type str
 print(type(int(str(500)))) # -> type int
+
+### BOOLEAN DATA TYPE
+# bool either True or False
+
+name = 'Allan'
+is_cool = False
+
+is_cool = True
+
+print(f'{name} profile is cool? {is_cool}')
+print(bool(1))
+print(bool(0))
+print(bool('True'))
+print(bool('False'))
