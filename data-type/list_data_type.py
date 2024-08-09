@@ -103,3 +103,33 @@ print(list_arr) # ['a', 'b', 'b', 'c', 'd', 'e', 'a']
 # reverse()
 list_arr.reverse()
 print(list_arr) # ['a', 'e', 'd', 'c', 'b', 'b', 'a']
+
+# range()
+print(list(range(1, 100)))
+print(list(range(100)))
+
+# .join()
+sentence = '!'
+new_sentence = sentence.join(['hi', 'my', 'name', 'is', 'JOJO'])
+print(new_sentence) # hi!my!name!is!JOJO
+
+sentence = ' '
+new_sentence = sentence.join(['hi', 'my', 'name', 'is', 'JOJO'])
+print(new_sentence) # hi my name is JOJO
+
+new_sentence = ' '.join(['hi', 'my', 'name', 'is', 'JOJO'])
+print(new_sentence) # hi my name is JOJO
+
+### LIST UNPACKING
+a,b,c = [1,2,3]
+
+print(a) # 1
+print(b) # 2
+print(c) # 3
+
+a,b,c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(a) # 1
+print(b) # 2
+print(c) # 3
+print(other) # [4, 5, 6, 7, 8]
+print(d) # 9
