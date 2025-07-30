@@ -30,18 +30,20 @@ my_list = [
         'x': True
     },
 ]
-print(my_list[0]['a'][2])
-print(my_list[0]['a'][1])
+print(my_list[0]['a'][2]) # 3
+print(my_list[0]['a'][1]) # 2
 
 
 ### WHEN TO USE LIST VS DICTIONARY
 # 1/ LIST:
 # ordered
 # store indexes and its value
+# mutable -> meaning it can be changed
 
 # 2/ DICTIONARY
 # unordered
 # store more information than list with key and value pair. It values can store any data type
+# mutable -> meaning it can be changed
 
 
 ### DICTIONARY KEYS
@@ -106,4 +108,6 @@ dict = {
 }
 print(dict)
 print(dict.update({'age': 55}))
+print(dict)
+print(dict.update({'name': 'Allan'}))
 print(dict)
