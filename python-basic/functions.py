@@ -36,3 +36,20 @@ print(sum(4, 5))
 ## Function Rule of thumb
 # Function should do something really well
 # Should return something
+
+# method vs function
+# method : call with . in front of. Has to be own by something (i.e., the left object call method by .)
+# function : call by invoking
+
+# docstring: similar to javadoc but with ''''''
+# run help(function name) to get info of the function with docstring
+# or
+# test.__doc__
+def test(a):
+    """
+    Info: this function tests and print param a
+    """
+    print(a)
+
+
+test('!!!')
