@@ -37,7 +37,7 @@ def outer():
 
     def inner():
         # don't use the x local variable, jump up to parent variable to get the x variable
-        # if don't have nonlocal variable, it will create a new x variable independent of x variable in parant function
+        # if don't have nonlocal variable, it will create a new x variable independent of x variable in parent function
         nonlocal x
         x = "nonlocal"
         print("inner: ", x)
