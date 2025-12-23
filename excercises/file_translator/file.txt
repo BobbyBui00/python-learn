@@ -1,1 +1,8 @@
 Hi, my name is Allan
+
+How are you doing!
+
+Translated Text
+こんにちは、Allanと申します
+
+お元気ですか！
